@@ -1,0 +1,51 @@
+
+body{
+    background-image: url("./images/BGI\(1\).jpg");
+    background-size: cover;
+}  
+
+.header
+{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    background: #8d6e63;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    
+}
+
+#center{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#click::after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color:#fff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+#click:hover:after{
+    transform: scaleX(1);
+}
+
+#HP{
+    background-image: url("images/book4.png");
+    font-family: 'Rightt';
+    text-align: center;
+    font-size: 70px;
+    color:aliceblue
+}

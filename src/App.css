@@ -1,0 +1,12 @@
+
+#as{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+#as div{
+  margin: 10px;
+  text-decoration: none;
+}
+
